@@ -1,4 +1,4 @@
-the big O notations of the time complexity of the Bubble sort algorithm:
+the Bubble sort algorithm:
 O(n)
 O(n^2)
 O(n^2)
