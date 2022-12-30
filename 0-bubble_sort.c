@@ -22,13 +22,13 @@ void swap_sort(int *i, int *j)
 */
 void bubble_sort(int *array, size_t size)
 {
-	int i, j;
+	unsigned int i, j;
 
 	if (array == NULL)
 		return;
 	{
-		for (i = 0; i < size; i++)
-			for (j = i + 1; j < i; j++)
+		for (i = 0; i < size - 1; i++)
+			for (j = 0; j < size - i - 1; j++)
 				if (array[j] > array[j + 1])
 				{
 					swap_sort(&array[j], &array[j + 1]);
