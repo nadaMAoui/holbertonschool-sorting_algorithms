@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * swap - Function swaps  two data 
+ * swap - Function swaps  two data
  * @a: Fisrt value
  * @b: Second value
  * Return: void
@@ -15,13 +15,15 @@ void swap(int *a, int *b)
 	*b = *a;
 	*a = tmp;
 }
-void selection_sort(int *array, size_t size)
+
 /**
- * selection_sort - sort aray of data by selecting each time the min
+ * selection_sort -function that
+ * sort aray of data by selecting each time the min
  * @array: vctor o data to be sorted
  * @size: n data
  * Return: void
-*/
+ */
+void selection_sort(int *array, size_t size)
 {
 	unsigned int i, j, min_pos;
 
